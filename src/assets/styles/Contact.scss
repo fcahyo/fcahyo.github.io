@@ -1,48 +1,16 @@
-.contact_wrapper svg {
-  font-size: 1em;
-  vertical-align: middle;
-  margin-right: 5px;
-}
-
-.contact-form {
-  padding-top: 20px;
-
-  button {
-    float: right;
-    background-color: white;
-    color: #050f0b;
-  }
-
-  button:hover {
-    background-color: #5000ca;
-    color: white;
-  }
-
-  fieldset {
-    background-color: white;
-  }
-}
-
-label {
-  font-size: 1.2rem;
-  font-family: 'DomaineDispNar-Medium', sans-serif;
-}
-
-.form-flex {
+.contact-icons {
   display: flex;
-  gap: 15px;
-  padding-bottom: 15px;
-}
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
 
-.form-flex .MuiFormControl-root {
-  width: 100%;
-}
+  a {
+    color: #ffffff;
+    transition: transform 0.3s ease, color 0.3s ease;
 
-form {
-  width: 100% !important;
-}
-
-.body-form {
-  width: 100% !important;
-  margin-bottom: 15px !important;
+    &:hover {
+      transform: scale(1.2);
+      color: #64ffda; /* accent color */
+    }
+  }
 }
